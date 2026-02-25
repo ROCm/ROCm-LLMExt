@@ -1,0 +1,72 @@
+.. meta::
+  :description: Learn about the features and capabilities of ROCm-LLMExt
+  :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
+
+.. rocmds-index:
+
+********************************************************************
+AMD ROCm LLMExt documentation
+********************************************************************
+
+AMD ROCm™ LLMExt (ROCm-LLMExt) is an open-source software toolkit built
+on the ROCm platform for large language model (LLM) extensions,
+integrations, and performance enablement on AMD GPUs. The domain
+brings together training, post-training, inference, and orchestration
+components to make modern LLM stacks practical and reproducible on
+AMD hardware.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
+
+   * - Section
+     - Items
+   * - Training
+     - - Large-scale transformer training
+       - Distributed parallelism (data, tensor, pipeline)
+       - Mixed precision and performance tuning
+       - Mixture-of-Experts (MoE) enablement
+   * - Post-training and alignment
+     - - Reinforcement learning and post-training workflows
+       - Scalable experimentation
+       - Reproducible configurations
+   * - Inference and serving
+     - - High-throughput decoding and low-latency serving
+       - Optimized attention and inference operators
+       - Lightweight and edge-friendly inference paths
+   * - Distributed execution
+     - - Multi-node orchestration
+       - Cluster bring-up and scheduling
+       - Batch and online inference pipelines
+
+The ROCm-LLMExt source code is hosted on GitHub at `https://github.com/ROCm/ROCm-LLMExt <https://github.com/ROCm/ROCm-LLMExt>`__.
+
+ROCm-LLMExt documentation is organized into the following categories:
+
+.. grid:: 2
+  :gutter: 3
+
+  .. grid-item-card:: Install
+
+    * :ref:`linux-install`
+
+  .. grid-item-card:: Components
+
+    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-25.08/>`__
+    * `Stanford Megatron-LM <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/>`__
+    * `Megablocks <https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/>`__
+    * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-25.08/>`__
+    * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.09/>`__
+    * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-25.09/>`__
+
+  .. grid-item-card:: Resources
+
+    * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale/README.html>`__
+    * `Stanford Megatron-LM and Megablocks on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html>`__
+    * `Ray on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/rocm-ray/README.html>`__
+    * `llama.cpp on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp/README.html>`__
+    * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer/README.html>`__
+
+To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
+
+You can find licensing information on the :doc:`Licensing <about/license>` page.
