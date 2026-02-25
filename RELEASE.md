@@ -20,10 +20,13 @@ This is the third release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-
 
 ## Release highlights
 
-This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for three components:
+This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for two components:
 
 * [verl](https://rocm.docs.amd.com/projects/verl/en/docs-26.02/) is a flexible, efficient and production-ready RL training framework designed for large language models (LLMs) post-training.
 * [Ray](https://rocm.docs.amd.com/projects/ray/en/docs-26.02/) is a unified framework for scaling AI and Python applications from your laptop to a full cluster, without changing your code. Ray consists of [a core distributed runtime](https://docs.ray.io/en/latest/ray-core/walkthrough.html) and a set of [AI libraries](https://docs.ray.io/en/latest/ray-air/getting-started.html) for simplifying machine learning computations. Ray is a general-purpose framework that runs many types of workloads efficiently. Any Python application can be scaled with Ray, without extra infrastructure.
+
+This release enhances support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for the following component:
+
 * [llama.cpp](https://rocm.docs.amd.com/projects/llama.cpp/en/docs-26.02/) is an open-source framework for Large Language Model (LLM) inference that runs on both central processing units (CPUs) and graphics processing units (GPUs). It is written in plain C/C++, providing a simple, dependency-free setup.
 
 This release introduces support for **[ROCm 7.1.1](https://rocm.docs.amd.com/en/docs-7.1.1/)** for the following component:
