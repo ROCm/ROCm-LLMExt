@@ -62,12 +62,12 @@ Click {fab}`github` to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/">Stanford Megatron-LM</a></td>
-                <td>85f95ae</a></td>
+                <td>85f95ae</td>
                 <td><a href="<https://github.com/stanford-futuredata/Megatron-LM/commit/85f95aef3b648075fe6f291c86714fdcbd9cd1f5>"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/">megablocks</a></td>
-                <td>0.7.0</a></td>
+                <td>0.7.0</td>
                 <td><a href="<https://github.com/databricks/megablocks/releases/tag/v0.7.0>"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
