@@ -10,9 +10,9 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 26.02 Release notes
+# ROCm-LLMExt 26.02 release notes
 
-This is the third release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for Large Language Model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the third release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
@@ -20,28 +20,28 @@ This is the third release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-
 
 ## Release highlights
 
-This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for two components:
+This release introduces support for [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/) for two components:
 
-* [verl](https://rocm.docs.amd.com/projects/verl/en/docs-26.02/) is a flexible, efficient and production-ready RL training framework designed for large language models (LLMs) post-training.
+* [verl](https://rocm.docs.amd.com/projects/verl/en/docs-26.02/) is a flexible, efficient, and production-ready RL training framework designed for large language models (LLMs) post-training.
 * [Ray](https://rocm.docs.amd.com/projects/ray/en/docs-26.02/) is a unified framework for scaling AI and Python applications from your laptop to a full cluster, without changing your code. Ray consists of [a core distributed runtime](https://docs.ray.io/en/latest/ray-core/walkthrough.html) and a set of [AI libraries](https://docs.ray.io/en/latest/ray-air/getting-started.html) for simplifying machine learning computations. Ray is a general-purpose framework that runs many types of workloads efficiently. Any Python application can be scaled with Ray, without extra infrastructure.
 
-This release enhances support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for the following component:
+This release enhances support on [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/) with specific optimizations for AMD Instinct MI300X GPUs for the following component:
 
-* [llama.cpp](https://rocm.docs.amd.com/projects/llama.cpp/en/docs-26.02/) is an open-source framework for Large Language Model (LLM) inference that runs on both central processing units (CPUs) and graphics processing units (GPUs). It is written in plain C/C++, providing a simple, dependency-free setup.
+* [llama.cpp](https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/) is an open-source framework for large language model (LLM) inference that runs on both central processing units (CPUs) and graphics processing units (GPUs). It is written in plain C/C++, providing a simple, dependency-free setup.
 
-This release introduces support for **[ROCm 7.1.1](https://rocm.docs.amd.com/en/docs-7.1.1/)** for the following component:
+This release introduces support for [ROCm 7.1.1](https://rocm.docs.amd.com/en/docs-7.1.1/) for the following component:
 
-* [FlashInfer](https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.02/) is a library and kernel generator for Large Language Models (LLMs) that provides a high-performance implementation of graphics processing units (GPUs) kernels. FlashInfer focuses on LLM serving and inference, as well as advanced performance across diverse scenarios.
+* [FlashInfer](https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.02/) is a library and kernel generator for large language models (LLMs) that provides a high-performance implementation of kernels for graphics processing units (GPUs). FlashInfer focuses on LLM serving and inference, as well as advanced performance across diverse scenarios.
 
 ## System requirements
 
 ```{note}
-For the 26.02 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.02/about/compatibility-matrix.html) to verify supported ROCm versions. 
+For the 26.02 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.02/about/compatibility-matrix.html) to verify supported ROCm versions. 
 ```
 
 ## ROCm-LLMExt components
 
-The following table lists the ROCm-LLMExt component version for the 26.02 release. 
+The following table lists ROCm-LLMExt component versions for the 26.02 release. 
 Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -61,17 +61,17 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-26.02/">verl</a></td>
                 <td>0.3.0.post0&nbsp;&Rightarrow;&nbsp;<a href="#verl-0-6-0">0.6.0</a></td>
-                <td><a href="<https://github.com/verl-project/verl/releases/tag/v0.6.0>"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/verl-project/verl/releases/tag/v0.6.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/">Stanford Megatron-LM</a></td>
                 <td>85f95ae</td>
-                <td><a href="<https://github.com/stanford-futuredata/Megatron-LM/commit/85f95aef3b648075fe6f291c86714fdcbd9cd1f5>"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/stanford-futuredata/Megatron-LM/commit/85f95aef3b648075fe6f291c86714fdcbd9cd1f5"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/">megablocks</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/">Megablocks</a></td>
                 <td>0.7.0</td>
-                <td><a href="<https://github.com/databricks/megablocks/releases/tag/v0.7.0>"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/databricks/megablocks/releases/tag/v0.7.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.02/">Ray</a></td>
@@ -85,9 +85,27 @@ Click {fab}`github` to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.02/">FlashInfer</a></td>
-                <td>0.2.5</td>
+                <td><a href="#flashinfer-0-2-5">0.2.5</a></td>
                 <td><a href="https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.2.5"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
 </div>
+
+## Detailed component changelogs
+
+### verl 0.6.0
+
+This release adds support for ROCm 7.0.0 on AMD Instinct MI300X GPUs.
+
+### Ray 2.51.1
+
+This release adds support for ROCm 7.0.0 on AMD Instinct MI300X GPUs.
+
+### llama.cpp b6652
+
+This release enhances support on ROCm 7.0.0 with specific optimizations for AMD Instinct MI300X GPUs. It is also supported on MI325X and MI210 GPUs.
+
+### FlashInfer 0.2.5
+
+This release adds support for ROCm 7.1.1 on AMD Instinct MI325X and MI300X GPUs.
