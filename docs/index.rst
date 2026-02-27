@@ -8,7 +8,7 @@
 AMD ROCm LLMExt documentation
 ********************************************************************
 
-AMD ROCm™ LLMExt (ROCm-LLMExt) is an open-source software toolkit built
+AMD ROCm LLMExt (ROCm-LLMExt) is an open-source software toolkit built
 on the ROCm platform for large language model (LLM) extensions,
 integrations, and performance enablement on AMD GPUs. The domain
 brings together training, post-training, inference, and orchestration
@@ -19,11 +19,11 @@ AMD hardware.
    :header-rows: 1
    :widths: 30 70
 
-   * - Section
-     - Items
+   * - LLM Task
+     - Features
    * - Training
      - - Large-scale transformer training
-       - Distributed parallelism (data, tensor, pipeline)
+       - Distributed parallelism (data, tensor, and pipeline)
        - Mixed precision and performance tuning
        - Mixture-of-Experts (MoE) enablement
    * - Post-training and alignment
