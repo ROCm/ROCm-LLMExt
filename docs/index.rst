@@ -19,9 +19,9 @@ AMD hardware.
    :header-rows: 1
    :widths: 30 70
 
-   * - Section
-     - LLM Task
-   * - Features
+   * - LLM Task
+     - Features
+   * - Training
      - - Large-scale transformer training
        - Distributed parallelism (data, tensor, and pipeline)
        - Mixed precision and performance tuning

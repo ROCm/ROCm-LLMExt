@@ -17,10 +17,11 @@ Use the following matrix to view the ROCm-LLMExt compatibility and system requir
 +----------------------+--------+--------------+----------------+--------------------+------------------+----------------------------------------------+------------------------------------+
 | ROCm-LLMExt version  | Ubuntu | ROCm version | Python version | PyTorch version    | AMD Instinct GPU | Component                                    | Docker Hub                         |
 +======================+========+==============+================+====================+==================+==============================================+====================================+
-| 26.02                | 24.04  | 7.1.1        | 3.12.9         | 2.8.0              | MI325X,          | `FlashInfer 0.2.5                            | `|docker-icon| rocm/flashinfer     |
-|                      |        |              |                |                    | MI300X           | <https://rocm.docs.amd.com/projects/         | <https://hub.docker.com/r/rocm/    |
-|                      |        |              |                |                    |                  | flashinfer/en/docs-26.02/install/            | flashinfer/tags?name=              |
-|                      |        |              |                |                    |                  | flashinfer-install.html>`__                  | flashinfer-0.2.5.amd2>`__          |
+| 26.02                | 24.04  | 7.1.1        | 3.12.9         | 2.8.0              | MI325X,          | `FlashInfer 0.2.5                            | <a href="https://hub.docker.com/   |
+|                      |        |              |                |                    | MI300X           | <https://rocm.docs.amd.com/projects/         | r/rocm/flashinfer/tags?name=       |
+|                      |        |              |                |                    |                  | flashinfer/en/docs-26.02/install/            | flashinfer-0.2.5.amd2"><i class=   |
+|                      |        |              |                |                    |                  | flashinfer-install.html>`__                  | "fab fa-docker fa-lg"></i>         |
+|                      |        |              |                |                    |                  |                                              | rocm/flashinfer</a>                |
 +                      +--------+--------------+----------------+--------------------+------------------+----------------------------------------------+------------------------------------+
 |                      | 22.04  | 7.0.0        | 3.12.12        | 2.9.0a0+git1c57644 | MI300X           | `Ray 2.51.1                                  | `|docker-icon| rocm/ray            |
 |                      |        |              |                |                    |                  | <https://rocm.docs.amd.com/projects/         | <https://hub.docker.com/r/rocm/    |
