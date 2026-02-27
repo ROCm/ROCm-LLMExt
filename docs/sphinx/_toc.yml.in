@@ -36,7 +36,7 @@ subtrees:
     title: ROCm Stanford Megatron-LM and Megablocks blog
   - url: https://rocm.blogs.amd.com/artificial-intelligence/rocm-ray/README.html
     title: ROCm Ray blog
-  - url: https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp/README.html
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/coding-agent/README.html
     title: ROCm llama.cpp blog
   - url: https://rocm.blogs.amd.com/artificial-intelligence/flashinfer/README.html
     title: ROCm FlashInfer blog

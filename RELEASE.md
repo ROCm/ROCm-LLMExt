@@ -10,9 +10,9 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 25.09 Release notes
+# ROCm-LLMExt 25.09 release notes
 
-This is the second release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for Large Language Model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the second release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
@@ -20,23 +20,21 @@ This is the second release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open
 
 ## Release highlights
 
-This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/), [ROCm 6.4.3](https://rocm.docs.amd.com/en/docs-6.4.3/), [ROCm 6.4.2](https://rocm.docs.amd.com/en/docs-6.4.2/) and [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/)** for the following component:
+This release introduces support for [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/), [ROCm 6.4.3](https://rocm.docs.amd.com/en/docs-6.4.3/), [ROCm 6.4.2](https://rocm.docs.amd.com/en/docs-6.4.2/) and [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/) for the following component:
 
-* [llama.cpp](https://rocm.docs.amd.com/projects/llama.cpp/en/docs-25.09/) is an open-source framework for Large Language Model (LLM) inference that runs on both central processing units (CPUs) and graphics processing units (GPUs). It is written in plain C/C++, providing a simple, dependency-free setup.
+* [llama.cpp](https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.09/) is an open-source inference library and framework for large language models (LLMs) that runs on both central processing units (CPUs) and graphics processing units (GPUs). It is written in plain C/C++, providing a simple, dependency-free setup.
 
-This release introduces support for **[ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/)** for the following component:
+This release introduces support for [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/) for the following component:
 
-* [FlashInfer](https://rocm.docs.amd.com/projects/flashinfer/en/docs-25.09/) is a library and kernel generator for Large Language Models (LLMs) that provides a high-performance implementation of graphics processing units (GPUs) kernels. FlashInfer focuses on LLM serving and inference, as well as advanced performance across diverse scenarios.
+* [FlashInfer](https://rocm.docs.amd.com/projects/flashinfer/en/docs-25.09/) is a library and kernel generator for large language models (LLMs) that provides a high-performance implementation of kernels for graphics processing units (GPUs). FlashInfer focuses on LLM serving and inference, as well as advanced performance across diverse scenarios.
 
 ## System requirements
 
-```{note}
-For the 25.09 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-25.09/about/compatibility-matrix.html) to verify supported ROCm versions. 
-```
+For the 25.09 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-25.09/about/compatibility-matrix.html) to verify supported ROCm versions. 
 
 ## ROCm-LLMExt components
 
-The following table lists the ROCm-LLMExt component version for the 25.09 release. 
+The following table lists ROCm-LLMExt component versions for the 25.09 release. 
 Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -56,22 +54,22 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-25.08/">verl</a></td>
                 <td>0.3.0.post0</td>
-                <td><a href="<https://github.com/verl-project/verl/releases/tag/v0.3.0.post0>"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/verl-project/verl/releases/tag/v0.3.0.post0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/">Stanford Megatron-LM</a></td>
                 <td>85f95ae</td>
-                <td><a href="<https://github.com/stanford-futuredata/Megatron-LM/commit/85f95aef3b648075fe6f291c86714fdcbd9cd1f5>"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/stanford-futuredata/Megatron-LM/commit/85f95aef3b648075fe6f291c86714fdcbd9cd1f5"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/">megablocks</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/">Megablocks</a></td>
                 <td>0.7.0</td>
-                <td><a href="<https://github.com/databricks/megablocks/releases/tag/v0.7.0>"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/databricks/megablocks/releases/tag/v0.7.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-25.08/">Ray</a></td>
                 <td>2.48.0.post0</td>
-                <td><a href="https://github.com/ray-project/ray/releases/tag/ray-2.51.1"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/ROCm/ray/tree/release/2.48.0.post0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.09/">llama.cpp</a></td>
@@ -80,9 +78,19 @@ Click {fab}`github` to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-25.09/">FlashInfer</a></td>
-                <td>0.2.5</td>
+                <td><a href="#flashinfer-0-2-5">0.2.5</a></td>
                 <td><a href="https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.2.5"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
 </div>
+
+## Detailed component changelogs
+
+### llama.cpp b6356
+
+This release adds support on ROCm 7.0.0, 6.4.3, 6.4.2, and 6.4.1 for AMD Instinct MI325X, MI300X and MI210 GPUs.
+
+### FlashInfer 0.2.5
+
+This release adds support for ROCm 6.4.1 on AMD Instinct MI300X GPUs.
