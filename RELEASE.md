@@ -89,7 +89,7 @@ Click {fab}`github` to go to the component's source code on GitHub.
 
 ### llama.cpp b6356
 
-This release adds support on ROCm 7.0.0, 6.4.3, 6.4.2, and 6.4.1 for AMD Instinct MI325X, MI300X and MI210 GPUs.
+This release adds support for ROCm 7.0.0, 6.4.3, 6.4.2, and 6.4.1 on AMD Instinct MI325X, MI300X and MI210 GPUs.
 
 ### FlashInfer 0.2.5
 
