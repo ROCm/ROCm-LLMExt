@@ -20,14 +20,24 @@ a svg:hover {
     white-space: nowrap;
 }
 
-/* Compatibility Matrix: bold header separator */
-table.docutils.compat-matrix thead th {
-  border-bottom-width: 2px; /* make header separator "bold" */
+/* Collapse borders so a single line shows between rows */
+.bd-content table.docutils.compat-matrix {
+  border-collapse: collapse;
 }
 
-/* Compatibility Matrix: bold separator before each version group
-   Applies to rows whose first cell has content (i.e., the "version-start" rows).
-   Uses theme border color for consistency across light/dark. */
-table.docutils.compat-matrix tbody tr:has(td:first-child > p:not(:empty)) td {
-  border-top: 2px solid var(--pst-color-border);
+/* Make the header separator the same bold blue */
+.bd-content table.docutils.compat-matrix thead th {
+  border-bottom: 2px solid var(--pst-color-primary) !important;
+}
+
+/* Add the same blue separator above group-start rows
+   (first cell contains a span.version-start produced by the role) */
+.bd-content table.docutils.compat-matrix tbody tr:has(td:first-child .version-start) td {
+  border-top: 2px solid var(--pst-color-primary) !important;
+}
+
+/* Alternative: apply via first cell and siblings (works the same) */
+.bd-content table.docutils.compat-matrix tbody td:first-child:has(.version-start),
+.bd-content table.docutils.compat-matrix tbody td:first-child:has(.version-start) ~ td {
+  border-top: 2px solid var(--pst-color-primary) !important;
 }
