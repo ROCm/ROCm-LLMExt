@@ -25,23 +25,26 @@ a svg:hover {
   border-collapse: collapse;
 }
 
-/* Keep header at 2px blue (as you have) */
+/* Make the header separator the same bold blue */
 .compat-matrix thead th {
   border-bottom: 2px solid var(--pst-color-primary) !important;
 }
 
-/* Prevent a double border right under the header */
-.compat-matrix thead + tbody > tr:first-child > td {
-  border-top: 0 !important;
-}
-
-/* Remove the gray bottom border on the row BEFORE a version-start row */
-.compat-matrix tbody tr:has(+ tr:has(> td:first-child :is(span.version-start, .version-start))) > td {
-  border-bottom: 0 !important;
-}
-
-/* Version-start row: apply the 1px blue separator on top */
+/* Blue separator above rows that start a version group:
+   - Matches when the first cell contains the role span.
+   - Works whether the cell content is wrapped in <p> or not.
+   - Applies the border to all cells in that row.
+*/
 .compat-matrix tbody tr:has(> td:first-child :is(span.version-start, .version-start)) > td {
   border-top: 1px solid var(--pst-color-primary) !important;
 }
 
+/* Fallback in case border-collapsing causes the 2px border to be overridden:
+   Draw the line inside the row using an inset box-shadow. */
+.compat-matrix tbody tr:has(> td:first-child :is(span.version-start, .version-start)) {
+  box-shadow: inset 0 1px 0 var(--pst-color-primary);
+}
+
+/* Extra robustness: if your table isn’t inside .bd-content, these still apply.
+   If it is inside .bd-content (PyData Sphinx Theme), the rules above already match. */
+.bd-content .compat-matrix thead th { border-bottom-color: var(--pst-color-primary) !important; }
