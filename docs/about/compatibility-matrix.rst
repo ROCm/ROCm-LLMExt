@@ -14,6 +14,15 @@ ROCm-LLMExt compatibility matrix
 
 Use the following matrix to view the ROCm-LLMExt compatibility and system requirements across releases:
 
+.. role:: version-start
+
+   | :version-start:`26.02` | `FlashInfer 0.2.5 | MI325X, ...`
+   |                        | ...
+   | :version-start:`25.09` | `FlashInfer 0.2.5 | MI300X, ...`
+   |                        | ...
+   | :version-start:`25.08` | `Ray 2.48.0.post0 | MI300X, ...`
+   |                        | ...
+
 .. table::
    :width: 65%
    :widths: 20 10 16 12 6 8 6 10
