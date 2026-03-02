@@ -20,6 +20,10 @@ This is the third release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-
 
 ## Release highlights
 
+```{note}
+ROCm-LLMExt 26.02 includes targeted updates to four components (verl, Ray, llama.cpp, and FlashInfer); two components remain unchanged (Stanford Megatron-LM and Megablocks).
+```
+
 This release introduces support for [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/) for two components:
 
 * [verl](https://rocm.docs.amd.com/projects/verl/en/docs-26.02/) is a flexible, efficient, and production-ready RL training library designed for large language models (LLMs) post-training.

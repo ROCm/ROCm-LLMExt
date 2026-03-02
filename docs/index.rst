@@ -41,6 +41,11 @@ AMD hardware.
 
 The ROCm-LLMExt source code is hosted on GitHub at `https://github.com/ROCm/ROCm-LLMExt <https://github.com/ROCm/ROCm-LLMExt>`__.
 
+.. note::
+
+   ROCm-LLMExt 26.02 includes targeted updates to four components (verl, Ray, llama.cpp, and FlashInfer);
+   two components remain unchanged (Stanford Megatron-LM and Megablocks).
+
 ROCm-LLMExt documentation is organized into the following categories:
 
 .. grid:: 2

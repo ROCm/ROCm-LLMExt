@@ -19,3 +19,15 @@ a svg:hover {
 .format-big-table {
     white-space: nowrap;
 }
+
+/* Compatibility Matrix: bold header separator */
+table.docutils.compat-matrix thead th {
+  border-bottom-width: 2px; /* make header separator "bold" */
+}
+
+/* Compatibility Matrix: bold separator before each version group
+   Applies to rows whose first cell has content (i.e., the "version-start" rows).
+   Uses theme border color for consistency across light/dark. */
+table.docutils.compat-matrix tbody tr:has(td:first-child > p:not(:empty)) td {
+  border-top: 2px solid var(--pst-color-border);
+}
