@@ -20,6 +20,10 @@ This is the second release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open
 
 ## Release highlights
 
+```{note}
+ROCm-LLMExt 25.09 includes targeted updates to one component (llama.cpp) and introduces another (FlashInfer); four components remain unchanged (verl, Stanford Megatron-LM, Megablocks, and Ray).
+```
+
 This release introduces support for [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/), [ROCm 6.4.3](https://rocm.docs.amd.com/en/docs-6.4.3/), [ROCm 6.4.2](https://rocm.docs.amd.com/en/docs-6.4.2/) and [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/) for the following component:
 
 * [llama.cpp](https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.09/) is an open-source inference library and framework for large language models (LLMs) that runs on both central processing units (CPUs) and graphics processing units (GPUs). It is written in plain C/C++, providing a simple, dependency-free setup.
