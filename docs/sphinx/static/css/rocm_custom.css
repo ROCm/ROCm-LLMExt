@@ -20,24 +20,31 @@ a svg:hover {
     white-space: nowrap;
 }
 
-/* Collapse borders so a single line shows between rows */
-.bd-content table.docutils.compat-matrix {
+/* Compatibility Matrix: collapse borders */
+.compat-matrix {
   border-collapse: collapse;
 }
 
 /* Make the header separator the same bold blue */
-.bd-content table.docutils.compat-matrix thead th {
+.compat-matrix thead th {
   border-bottom: 2px solid var(--pst-color-primary) !important;
 }
 
-/* Add the same blue separator above group-start rows
-   (first cell contains a span.version-start produced by the role) */
-.bd-content table.docutils.compat-matrix tbody tr:has(td:first-child .version-start) td {
+/* Blue separator above rows that start a version group:
+   - Matches when the first cell contains the role span.
+   - Works whether the cell content is wrapped in <p> or not.
+   - Applies the border to all cells in that row.
+*/
+.compat-matrix tbody tr:has(> td:first-child :is(span.version-start, .version-start)) > td {
   border-top: 2px solid var(--pst-color-primary) !important;
 }
 
-/* Alternative: apply via first cell and siblings (works the same) */
-.bd-content table.docutils.compat-matrix tbody td:first-child:has(.version-start),
-.bd-content table.docutils.compat-matrix tbody td:first-child:has(.version-start) ~ td {
-  border-top: 2px solid var(--pst-color-primary) !important;
+/* Fallback in case border-collapsing causes the 2px border to be overridden:
+   Draw the line inside the row using an inset box-shadow. */
+.compat-matrix tbody tr:has(> td:first-child :is(span.version-start, .version-start)) {
+  box-shadow: inset 0 2px 0 var(--pst-color-primary);
 }
+
+/* Extra robustness: if your table isn’t inside .bd-content, these still apply.
+   If it is inside .bd-content (PyData Sphinx Theme), the rules above already match. */
+.bd-content .compat-matrix thead th { border-bottom-color: var(--pst-color-primary) !important; }
