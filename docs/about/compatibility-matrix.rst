@@ -49,5 +49,5 @@ Use the following matrix to view the ROCm-LLMExt compatibility and system requir
    |                        | `verl 0.3.0.post0                            | MI300X           | 6.2.0        | 20.04  | 2.5.0              | 3.9.19         | |docker-icon| `rocm/verl           |
    |                        | <https://rocm.docs.amd.com/projects/         |                  |              |        |                    |                | <https://hub.docker.com/r/rocm/    |
    |                        | verl/en/docs-25.08/install/                  |                  |              |        |                    |                | verl/tags?name=                    |
-   |                        | verl-install.html>`__                        |                  |              |        |                    |                | name=verl-0.3.0>`__                |
+   |                        | verl-install.html>`__                        |                  |              |        |                    |                | verl-0.3.0>`__                     |
    +------------------------+----------------------------------------------+------------------+--------------+--------+--------------------+----------------+------------------------------------+
