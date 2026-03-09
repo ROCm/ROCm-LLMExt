@@ -38,7 +38,7 @@ Use the following matrix to view the ROCm-LLMExt compatibility and system requir
    |                        | `verl 0.6.0                                  | MI300X           | 7.0.0        | 22.04  | 2.9.0              | 3.12.11        | |docker-icon| `rocm/verl           |
    |                        | <https://rocm.docs.amd.com/projects/         |                  |              |        |                    |                | <https://hub.docker.com/r/rocm/    |
    |                        | verl/en/docs-26.02/install/                  |                  |              |        |                    |                | verl/tags?name=                    |
-   |                        | verl-install.html>`__                        |                  |              |        |                    |                | name=verl-0.6.0>`__                |
+   |                        | verl-install.html>`__                        |                  |              |        |                    |                | verl-0.6.0>`__                     |
    +                        +----------------------------------------------+------------------+--------------+--------+--------------------+----------------+------------------------------------+
    |                        | `llama.cpp b6652                             | MI325X,          | 7.0.0        | 24.04, | N/A                | N/A            | |docker-icon| `rocm/llama.cpp      |
    |                        | <https://rocm.docs.amd.com/projects/         | MI300X,          |              | 22.04  |                    |                | <https://hub.docker.com/r/rocm/    |
@@ -79,5 +79,5 @@ Use the following matrix to view the ROCm-LLMExt compatibility and system requir
    |                        | `verl 0.3.0.post0                            | MI300X           | 6.2.0        | 20.04  | 2.5.0              | 3.9.19         | |docker-icon| `rocm/verl           |
    |                        | <https://rocm.docs.amd.com/projects/         |                  |              |        |                    |                | <https://hub.docker.com/r/rocm/    |
    |                        | verl/en/docs-25.08/install/                  |                  |              |        |                    |                | verl/tags?name=                    |
-   |                        | verl-install.html>`__                        |                  |              |        |                    |                | name=verl-0.3.0>`__                |
+   |                        | verl-install.html>`__                        |                  |              |        |                    |                | verl-0.3.0>`__                     |
    +------------------------+----------------------------------------------+------------------+--------------+--------+--------------------+----------------+------------------------------------+
