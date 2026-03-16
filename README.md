@@ -48,5 +48,5 @@ Refer to the individual component pages for documentation on system requirements
 - [Ray](https://github.com/ROCm/ray)
 - [llama.cpp](https://github.com/ROCm/llama.cpp)
 - [FlashInfer](https://github.com/ROCm/flashinfer)
-
+- [Triton Inference Server](https://github.com/ROCm/triton-inference-server-server)
  
