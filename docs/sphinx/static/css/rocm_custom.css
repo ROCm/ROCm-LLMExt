@@ -20,31 +20,32 @@ a svg:hover {
     white-space: nowrap;
 }
 
-/* Compatibility Matrix: collapse borders */
-.compat-matrix {
+/* Collapse borders on the table element itself */
+table.compat-matrix {
   border-collapse: collapse;
 }
 
-/* Make the header separator the same bold blue */
-.compat-matrix thead th {
+/* Header separator (cover both th and td to be safe) */
+.compat-matrix thead :is(th, td) {
   border-bottom: 2px solid var(--pst-color-primary) !important;
 }
 
 /* Blue separator above rows that start a version group:
-   - Matches when the first cell contains the role span.
-   - Works whether the cell content is wrapped in <p> or not.
-   - Applies the border to all cells in that row.
+   - Works whether the first cell is a <td> or <th>.
+   - Works whether the span is wrapped in <p> or not.
+   - Applies to all cells in that row.
 */
-.compat-matrix tbody tr:has(> td:first-child :is(span.version-start, .version-start)) > td {
+.compat-matrix tbody tr:has(> :is(td, th):first-child :is(span.version-start, .version-start)) > :is(td, th) {
   border-top: 1px solid var(--pst-color-primary) !important;
+
+  /* Fallback visual line if border-collapsing/overrides get in the way */
+  background-image: linear-gradient(to bottom, var(--pst-color-primary), var(--pst-color-primary));
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
-/* Fallback in case border-collapsing causes the 2px border to be overridden:
-   Draw the line inside the row using an inset box-shadow. */
-.compat-matrix tbody tr:has(> td:first-child :is(span.version-start, .version-start)) {
-  box-shadow: inset 0 1px 0 var(--pst-color-primary);
+/* If your table lives inside .bd-content (PyData Sphinx Theme), this extra specificity helps override theme rules */
+.bd-content table.compat-matrix thead :is(th, td) {
+  border-bottom-color: var(--pst-color-primary) !important;
 }
-
-/* Extra robustness: if your table isn’t inside .bd-content, these still apply.
-   If it is inside .bd-content (PyData Sphinx Theme), the rules above already match. */
-.bd-content .compat-matrix thead th { border-bottom-color: var(--pst-color-primary) !important; }
