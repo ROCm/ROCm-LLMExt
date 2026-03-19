@@ -21,12 +21,12 @@ This is the fourth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open
 ## Release highlights
 
 ```{note}
-ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer); five components remain unchanged (verl, Stanford Megatron-LM, Megablocks, Ray and llama.cpp).
+ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer); five components remain unchanged (verl, Stanford Megatron-LM, Megablocks, Ray, and llama.cpp).
 ```
 
 This release introduces the following component with support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/):
 
-* [Triton Inference Server](https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/) is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and get predictions efficiently in real time.
+* [Triton Inference Server](https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/) is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and recieve predictions efficiently in real time.
 
 This release adds support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/) and [ROCm 7.0.2](https://rocm.docs.amd.com/en/docs-7.0.2/) for the following component:
 
@@ -40,7 +40,7 @@ For the 26.03 release, the ROCm‑LLMExt components span a range of ROCm version
 ## ROCm-LLMExt components
 
 The following table lists ROCm-LLMExt component versions for the 26.03 release. 
-Click {fab}`github` to go to the component's source code on GitHub.
+Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
     <table id="rocm-rn-components" class="table">
@@ -48,7 +48,7 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <th>Name</th>
                 <th>Version</th>
-                <th></th>
+                <th>Source</th>
             </tr>
         </thead>
         <colgroup>
@@ -103,4 +103,5 @@ This release adds support for ROCm 7.2.0 and ROCm 7.0.2 on AMD Instinct MI325X a
 
 ### Triton Inference Server 25.12
 
-This release introduces support for ROCm 7.2.0 on AMD Instinct MI355X and MI300X GPUs.
+
+Triton Inference Server is a newly supported component as part of the ROCm-LLMExt toolkit. Triton Inference Server is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and get predictions efficiently in real time. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X and MI300X GPUs.

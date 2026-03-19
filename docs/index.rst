@@ -44,7 +44,7 @@ The ROCm-LLMExt source code is hosted on GitHub at `https://github.com/ROCm/ROCm
 .. note::
 
    ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer);
-   five components remain unchanged (verl, Stanford Megatron-LM, Megablocks, Ray and llama.cpp).
+   five components remain unchanged (verl, Stanford Megatron-LM, Megablocks, Ray, and llama.cpp).
 
 ROCm-LLMExt documentation is organized into the following categories:
 
@@ -57,21 +57,21 @@ ROCm-LLMExt documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.02/>`__
-    * `Stanford Megatron-LM <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/>`__
+    * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/>`__
+    * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/>`__
     * `Megablocks <https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/>`__
     * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.02/>`__
-    * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/>`__
-    * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/>`__
+    * `Stanford Megatron-LM <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/>`__
     * `Triton Inference Server <https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/>`__
+    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.02/>`__
 
   .. grid-item-card:: Resources
 
-    * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale/README.html>`__
-    * `Stanford Megatron-LM and Megablocks on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html>`__
-    * `Ray on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/rocm-ray/README.html>`__
-    * `llama.cpp on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp/README.html>`__
     * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer/README.html>`__
+    * `llama.cpp on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp-oct2025/README.html>`__
+    * `Ray on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html>`__
+    * `Stanford Megatron-LM and Megablocks on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html>`__
+    * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale-rocm7/README.html>`__
 
 To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 

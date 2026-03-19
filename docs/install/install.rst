@@ -28,12 +28,12 @@ Each component has distinct prerequisite and environment requirements. To avoid 
 conflicts and configuration errors, components must be installed individually rather than
 through a unified installation process.
 
-The installation instructions for each component, on ROCm can be found as follows: 
+The installation instructions for each component on ROCm can be found as follows: 
 
-* `verl on ROCm <https://rocm.docs.amd.com/projects/verl/en/docs-26.02/install/verl-install.html>`__
-* `Stanford Megatron-LM on ROCm <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/install/stanford-megatron-lm-install.html>`__
+* `FlashInfer on ROCm <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/install/flashinfer-install.html>`__
+* `llama.cpp on ROCm <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/install/llama-cpp-install.html>`__
 * `Megablocks on ROCm <https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/install/megablocks-install.html>`__
 * `Ray on ROCm <https://rocm.docs.amd.com/projects/ray/en/docs-26.02/install/ray-install.html>`__
-* `llama.cpp on ROCm <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/install/llama-cpp-install.html>`__
-* `FlashInfer on ROCm <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/install/flashinfer-install.html>`__
+* `Stanford Megatron-LM on ROCm <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/install/stanford-megatron-lm-install.html>`__
 * `Triton Inference Server on ROCm <https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/install/triton-inference-server-install.html>`__
+* `verl on ROCm <https://rocm.docs.amd.com/projects/verl/en/docs-26.02/install/verl-install.html>`__
