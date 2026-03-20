@@ -52,18 +52,18 @@ ROCm-LLMExt documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-25.08/>`__
-    * `Stanford Megatron-LM <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/>`__
+    * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.08/>`__
     * `Megablocks <https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/>`__
     * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-25.08/>`__
-    * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.08/>`__
+    * `Stanford Megatron-LM <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/>`__
+    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-25.08/>`__
 
   .. grid-item-card:: Resources
 
-    * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale/README.html>`__
-    * `Stanford Megatron-LM and Megablocks on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html>`__
-    * `Ray on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/rocm-ray/README.html>`__
     * `llama.cpp on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp/README.html>`__
+    * `Ray on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/rocm-ray/README.html>`__
+    * `Stanford Megatron-LM and Megablocks on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html>`__
+    * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale/README.html>`__
 
 To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 

@@ -30,8 +30,8 @@ through a unified installation process.
 
 The installation instructions for each component on ROCm can be found as follows: 
 
-* `verl on ROCm <https://rocm.docs.amd.com/projects/verl/en/docs-25.08/install/verl-install.html>`__
-* `Stanford Megatron-LM on ROCm <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/install/stanford-megatron-lm-install.html>`__
+* `llama.cpp on ROCm <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.08/install/llama-cpp-install.html>`__
 * `Megablocks on ROCm <https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/install/megablocks-install.html>`__
 * `Ray on ROCm <https://rocm.docs.amd.com/projects/ray/en/docs-25.08/install/ray-install.html>`__
-* `llama.cpp on ROCm <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.08/install/llama-cpp-install.html>`__
+* `Stanford Megatron-LM on ROCm <https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/install/stanford-megatron-lm-install.html>`__
+* `verl on ROCm <https://rocm.docs.amd.com/projects/verl/en/docs-25.08/install/verl-install.html>`__
