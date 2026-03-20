@@ -39,7 +39,7 @@ For the 25.09 release, the ROCm‑LLMExt components span a range of ROCm version
 ## ROCm-LLMExt components
 
 The following table lists ROCm-LLMExt component versions for the 25.09 release. 
-Click {fab}`github` to go to the component's source code on GitHub.
+Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
     <table id="rocm-rn-components" class="table">
@@ -47,7 +47,7 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <th>Name</th>
                 <th>Version</th>
-                <th></th>
+                <th>Source</th>
             </tr>
         </thead>
         <colgroup>
