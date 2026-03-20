@@ -25,7 +25,7 @@ Use the following matrix to view the ROCm-LLMExt compatibility and system requir
    +------------------------+----------------------------------------------------+------------------+--------------+--------+--------------------+----------------+--------------------------------------------+
    |  ROCm-LLMExt version   |                  Component                         | AMD Instinct GPU | ROCm version | Ubuntu |      PyTorch       |    Python      |             Docker Hub                     |
    +========================+====================================================+==================+==============+========+====================+================+============================================+
-   | :version-start:`26.03` | `FlashInfer 0.5.3                                  | MI500X,          | 7.2.0,       | 24.04  | 2.9.1              | 3.12.9         | |docker-icon| `rocm/flashinfer             |
+   | :version-start:`26.03` | `FlashInfer 0.5.3                                  | MI355X,          | 7.2.0,       | 24.04  | 2.9.1              | 3.12.9         | |docker-icon| `rocm/flashinfer             |
    |                        | <https://rocm.docs.amd.com/projects/               | MI325X,          | 7.0.2        |        |                    |                | <https://hub.docker.com/r/rocm/            |
    |                        | flashinfer/en/docs-26.03/install/                  | MI300X           |              |        |                    |                | flashinfer/tags?name=                      |
    |                        | flashinfer-install.html>`__                        |                  |              |        |                    |                | flashinfer-0.5.3.amd1>`__                  |
