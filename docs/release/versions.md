@@ -8,4 +8,4 @@
 
 | Version | Release date |
 | ------- | ------------ |
-| [25.08](https://rocm.docs.amd.com/projects/ROCm-LLMExt/en/docs-25.08/) | March 1, 2026 |
+| [25.08](https://rocm.docs.amd.com/projects/ROCm-LLMExt/en/docs-25.08/) | September 9, 2025 |
