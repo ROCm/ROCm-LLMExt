@@ -1,0 +1,47 @@
+defaults:
+  numbered: False
+  maxdepth: 6
+root: index
+subtrees:
+- entries:
+  - file: about/release-notes.md
+    title: Release notes
+  - file: about/compatibility-matrix.rst
+    title: Compatibility matrix
+
+- caption: Install
+  entries:
+  - file: install/install.rst
+
+- caption: Components
+  entries:
+  - url: https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.02/
+    title: FlashInfer
+  - url: https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/
+    title: llama.cpp
+  - url: https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/
+    title: Megablocks
+  - url: https://rocm.docs.amd.com/projects/ray/en/docs-26.02/
+    title: Ray
+  - url: https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/
+    title: Stanford Megatron-LM
+  - url: https://rocm.docs.amd.com/projects/verl/en/docs-26.02/
+    title: verl
+
+- caption: Resources
+  entries:
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/flashinfer/README.html
+    title: ROCm FlashInfer blog
+  - url: https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp-oct2025/README.html
+    title: ROCm llama.cpp blog
+  - url: https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html
+    title: ROCm Ray blog
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html
+    title: ROCm Stanford Megatron-LM and Megablocks blog
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale-rocm7/README.html
+    title: ROCm verl blog
+
+- caption: About
+  entries:
+  - file: about/license.rst
+    title: License
