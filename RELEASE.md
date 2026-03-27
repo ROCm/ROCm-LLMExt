@@ -21,7 +21,7 @@ This is the fourth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open
 ## Release highlights
 
 ```{note}
-ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer); five components remain unchanged (verl, Stanford Megatron-LM, Megablocks, Ray, and llama.cpp).
+ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer); other components remain unchanged (verl, Ray, and llama.cpp).
 ```
 
 This release introduces the following component with support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/):
@@ -60,16 +60,6 @@ Click {fab}`github` to go to the component's source on GitHub.
                 <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-26.02/">verl</a></td>
                 <td>0.6.0</td>
                 <td><a href="https://github.com/verl-project/verl/releases/tag/v0.6.0"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/">Stanford Megatron-LM</a></td>
-                <td>85f95ae</td>
-                <td><a href="https://github.com/stanford-futuredata/Megatron-LM/commit/85f95aef3b648075fe6f291c86714fdcbd9cd1f5"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/">Megablocks</a></td>
-                <td>0.7.0</td>
-                <td><a href="https://github.com/databricks/megablocks/releases/tag/v0.7.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.02/">Ray</a></td>

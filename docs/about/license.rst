@@ -24,10 +24,6 @@ the licenses in the individual repositories.
      - License
    * - `verl <https://github.com/ROCm/verl>`__
      - `Apache 2.0 <https://github.com/ROCm/verl/blob/main/LICENSE>`__
-   * - `Stanford Megatron-LM <https://github.com/ROCm/Stanford-Megatron-LM>`__
-     - `NVIDIA License, Apache 2.0 and MIT License <https://github.com/ROCm/Stanford-Megatron-LM/blob/main/LICENSE>`__
-   * - `Megablocks <https://github.com/ROCm/megablocks>`__
-     - `Apache 2.0 <https://github.com/ROCm/megablocks/blob/main/LICENSE>`__
    * - `Ray <https://github.com/ROCm/ray>`__
      - `Apache 2.0 <https://github.com/ROCm/ray/blob/amd-integration/LICENSE>`__
    * - `llama.cpp <https://github.com/ROCm/llama.cpp>`__

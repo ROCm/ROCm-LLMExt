@@ -19,12 +19,8 @@ subtrees:
     title: FlashInfer
   - url: https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/
     title: llama.cpp
-  - url: https://rocm.docs.amd.com/projects/megablocks/en/docs-25.08/
-    title: Megablocks
   - url: https://rocm.docs.amd.com/projects/ray/en/docs-26.02/
     title: Ray
-  - url: https://rocm.docs.amd.com/projects/stanford-megatron-lm/en/docs-25.08/
-    title: Stanford Megatron-LM
   - url: https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/
     title: Triton Inference Server
   - url: https://rocm.docs.amd.com/projects/verl/en/docs-26.02/
@@ -38,8 +34,6 @@ subtrees:
     title: ROCm llama.cpp blog
   - url: https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html
     title: ROCm Ray blog
-  - url: https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html
-    title: ROCm Stanford Megatron-LM and Megablocks blog
   - url: https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale-rocm7/README.html
     title: ROCm verl blog
 
