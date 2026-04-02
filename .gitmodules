@@ -16,3 +16,6 @@
 [submodule "flashinfer"]
 	path = flashinfer
 	url = https://github.com/ROCm/flashinfer
+[submodule "triton"]
+	path = triton
+	url = https://github.com/ROCm/triton-inference-server-server.git
