@@ -34,9 +34,8 @@ ROCm-LLMExt provides reference integrations, build instructions, patches when re
 - Verl: reinforcement learning and post-training workflows for LLMs
 - Ray: distributed execution framework for training, inference, and serving
 - FlashInfer: optimized inference operators such as attention and decoding kernels
-- MegaBlocks: high-performance Mixture-of-Experts building blocks
-- Stanford Megatron-LM: large-scale transformer training using Megatron-style parallelism
 - Llama.cpp: lightweight and portable LLM inference for servers, desktops, edge devices and HPC environments
+- Triton Inference Server: a high-performance model server for general machine learning inference
 
 ## Documentation
 
