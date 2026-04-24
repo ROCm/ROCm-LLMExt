@@ -18,16 +18,30 @@ a svg:hover {
 /* Adds container for big tables, used for Compatibility Matrix */
 .format-big-table {
     white-space: nowrap;
+    overflow-x: auto; /* Add horizontal scroll for wide tables */
+    display: block; /* Ensure overflow works */
 }
 
 /* Collapse borders on the table element itself */
 table.compat-matrix {
   border-collapse: collapse;
+  width: 100%; /* Ensure table respects container width */
+  table-layout: fixed; /* Help enforce column widths */
+}
+
+/* Ensure table cells respect boundaries */
+.compat-matrix td,
+.compat-matrix th {
+  overflow-wrap: break-word; /* Allow long URLs to wrap */
+  word-wrap: break-word;
+  padding: 8px; /* Add some padding for readability */
+  vertical-align: top; /* Align content to top of cells */
 }
 
 /* Header separator (cover both th and td to be safe) */
 .compat-matrix thead :is(th, td) {
   border-bottom: 2px solid var(--pst-color-primary) !important;
+  font-weight: bold; /* Make headers stand out */
 }
 
 /* Blue separator above rows that start a version group:
@@ -45,8 +59,20 @@ table.compat-matrix {
   background-position: 0 0;
 }
 
+/* Add borders to all cells for better visibility */
+.compat-matrix td,
+.compat-matrix th {
+  border: 1px solid var(--pst-color-border, #ddd);
+}
+
 /* If your table lives inside .bd-content (PyData Sphinx Theme), this extra specificity helps override theme rules */
 .bd-content table.compat-matrix thead :is(th, td) {
   border-bottom-color: var(--pst-color-primary) !important;
+}
+
+/* Ensure the table wrapper allows scrolling on small screens */
+.compat-matrix-wrapper {
+  overflow-x: auto;
+  margin: 1em 0;
 }
 
