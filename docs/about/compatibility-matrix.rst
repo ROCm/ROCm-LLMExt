@@ -69,7 +69,7 @@ Use the following matrix to view the ROCm-LLMExt compatibility and system requir
    |                        | <https://rocm.docs.amd.com/projects/               |                  |              |        |                      |                | <https://hub.docker.com/r/rocm/            |
    |                        | flashinfer/en/docs-25.09/install/                  |                  |              |        |                      |                | flashinfer/tags?name=                      |
    |                        | flashinfer-install.html>`__                        |                  |              |        |                      |                | flashinfer-0.2.5_rocm6>`__                 |
-   +                        +----------------------------------------------------+------------------+--------------+--------+--------------------+----------------+--------------------------------------------+
+   +                        +----------------------------------------------------+------------------+--------------+--------+----------------------+----------------+--------------------------------------------+
    |                        | `llama.cpp b6356                                   | MI325X,          | 7.0.0,       | 24.04, | N/A                  | N/A            | |docker-icon| `rocm/llama.cpp              |
    |                        | <https://rocm.docs.amd.com/projects/               | MI300X,          | 6.4.3,       | 22.04  |                      |                | <https://hub.docker.com/r/rocm/            |
    |                        | llama-cpp/en/docs-25.09/install/                   | MI210            | 6.4.2,       |        |                      |                | llama.cpp/tags?name=                       |
