@@ -28,14 +28,14 @@ This release introduces the following component with support for [ROCm 7.2.0](ht
 
 * [ComfyUI](https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/) is an open-source, node-based interface for building and running image generation workflows with diffusion models such as Stable Diffusion.
 
-This release introduces the following component with support on [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/):
+This release introduces the following component with support for [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/):
 
 * [ROCm-RAG](https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/) (Retrieval-Augmented Generation) is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources.
 
 
 ## System requirements
 
-For the 26.04 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.04/about/compatibility-matrix.html) to verify supported ROCm versions. 
+ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.04/about/compatibility-matrix.html) to verify the supported ROCm versions.  
 
 ## ROCm-LLMExt components
 
