@@ -99,8 +99,8 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ### ComfyUI 0.18.2
 
-ComfyUI is a newly supported component as part of the ROCm-LLMExt toolkit. ComfyUI is a graphical node-based interface that lets you create images, videos, and audio with minimal coding. You can even create diffusion workflows by dragging and dropping nodes in a visual interface. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X GPUs.
+ComfyUI is a newly-supported component as part of the ROCm-LLMExt toolkit. ComfyUI is a graphical node-based interface that lets you create images, videos, and audio with minimal coding. You can even create diffusion workflows by dragging and dropping nodes in a visual interface. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X GPUs.
 
 ### ROCm-RAG 1.0.0
 
-ROCm-RAG is a newly supported component as part of the ROCm-LLMExt toolkit. Build and deploy end-to-end AI pipelines with ROCm Retrieval-Augmented Generation (RAG) on AMD Instinct MI300X GPUs with support on ROCm 6.4.1. RAG is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources. 
+ROCm-RAG is a newly-supported component as part of the ROCm-LLMExt toolkit. Build and deploy end-to-end AI pipelines with ROCm Retrieval-Augmented Generation (RAG) on AMD Instinct MI300X GPUs with support on ROCm 6.4.1. RAG is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources. 
